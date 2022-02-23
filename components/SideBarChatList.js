@@ -10,7 +10,7 @@ function SideBarChatList({message, name}) {
           <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`}/>
           <div className="ml-2">
             <h3 className="text-[15px] font-bold text-gray-500">{ name }</h3>
-            <p className="text-[12px]">{message}</p>
+            <p className="text-[12px] text-gray-700">{message}</p>
           </div>
         </div>
   )

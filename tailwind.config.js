@@ -12,7 +12,8 @@ module.exports = {
         white: '#fff',
         mainBG: '#dadbd3',
         appBG: '#ebebeb',
-        serachBG: '#F0F2F5'
+        serachBG: '#F0F2F5',
+        messageSentColor: '#dcf8c6'
 
       },
       boxShadow: {
