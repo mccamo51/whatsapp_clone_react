@@ -8,6 +8,7 @@ import {
 import { Avatar, IconButton } from "@mui/material";
 import IconButtonElement from "./IconButton";
 import SideBarSearch from "./Search";
+import SideBarChatList from "./SideBarChatList";
 
 function Sidebar() {
   return (
@@ -31,7 +32,16 @@ function Sidebar() {
       <SideBarSearch />
 
       {/* chat content */}
-      <div className="bg-red-400 flex-1 mt-1">
+      <div className="flex-1 overflow-y-auto">
+        <SideBarChatList name ="Kwame Tynx" message="Okay"/>
+        <SideBarChatList name ="Kofi" message="Call me" />
+        <SideBarChatList name ="Nana Yaw" message="Thank you" />
+        <SideBarChatList name ="Babe" message="How are you?" />
+        <SideBarChatList name ="Hayford" message="Thanks" />
+        <SideBarChatList name ="Emmanuel" message="Talk to me" />
+        <SideBarChatList name ="Mike" message="Okay" />
+        <SideBarChatList name ="Dennis" message="Okay" />
+        <SideBarChatList name ="Mom" message="Okay" />
 
       </div>
     </div>
